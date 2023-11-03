@@ -129,7 +129,7 @@ nav ul a{
 }
 
 
-/* Desing de la partie batman personnage */
+/* Desing de la partie batman au cinéma */
 #batman-cinema{
     margin-top: 40px;
 }
@@ -146,31 +146,98 @@ nav ul a{
 
 #batman-cinema .description{
     margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 21px;
+}
+#batman-cinema .personnage-info{
+    text-align: center;
 }
 
-
-
-
-
-
-
-
 /* Design de la partie nemesis */
+#nemesis{
+margin-top: 40px;
+}
 
 .contre-batman{
     display: flex;
     justify-content:space-between;
 }
+#nemesis .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#nemesis .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 21px;
+}
+#nemesis .personnage-info{
+    text-align: center;
+}
 
 /*design de la partie alliés */
+#Allies{
+    margin-top: 40px;
+}
+
 .alliés-batman{
     display: flex;
     justify-content:space-between;
 }
+#Allies .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#Allies .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 21px;
+}
+
+#Allies .personnage-info{
+    text-align: center;
+}
+
 
 /* design de la partie justice ligue */
+#justice-ligue{
+    margin-top: 40px;
+}
 .ami-batman{
     display:center;
+}
+#justice-ligue .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#justice-ligue .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 21px;
+}
+
+/* Design de la partie Multimédia */
+#multimedia .slider-multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
+#multimedia .slider-image{
+    width: 100%;
+}
+#multimedia .slider-content{
+    padding: 15px;
+    background-color: #C4C4c4;
+}
+#multimedia .p{
+    font-size: 14px;
 }
 
 
