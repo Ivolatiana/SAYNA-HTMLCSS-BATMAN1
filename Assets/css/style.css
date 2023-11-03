@@ -73,6 +73,10 @@ nav ul a{
  nav ul a:hover{
     color: var(--yellow-color);
 }
+.logo:hover{
+    -webkit-filter: invert(44%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(109%) contrast(104%);
+            filter: invert(44%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(109%) contrast(104%);
+}
 
 /* Design de la partie en tete Hero */
 
@@ -224,6 +228,15 @@ margin-top: 40px;
 }
 
 /* Design de la partie Multimédia */
+#multimedia button{
+    position: relative;
+    top: 155px;
+    background: none;
+    border: none;
+}
+#multimedia button.right{
+    right: -85%;
+}
 #multimedia .slider-multimedia{
     display: flex;
     width: 60%;
@@ -234,11 +247,153 @@ margin-top: 40px;
 }
 #multimedia .slider-content{
     padding: 15px;
-    background-color: #C4C4c4;
+    background-color: #c4c4c4b2;
+    /* border radius*/
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 #multimedia .p{
     font-size: 14px;
 }
+#multimedia .yellow{
+    color: var(--yellow-color);
+}
+/* design de la partie formulaire */
+#contact{
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 70% 0;
+}
+#contact .form{
+    width: 50%;
+    margin: 0 auto;
+}
+#contact .h2{
+    text-align: center ;
+    font-size: 32px ;
+    margin-bottom: 32px ;
+}
+#contact .title{
+    display: block;
+    margin: 28px 0;
+}
+#contact .form input[type='email'],textarea{
+    border-top: none;
+    border-right: none;
+    width: 80%;
+    border-bottom: 2px solid  rgba(169, 169, 169, 0.151) ;
+    background-color: transparent;
+    padding:10px 0;
+}
+
+
+#contact .news{
+    margin: 15px 0;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.151);
+}
+
+#contact .icon img{
+    transform: rotate(90deg);
+    width: 20px;
+}
+::placeholder{
+    color: #c4c4c49d;
+    font-size: 15px;
+
+}
+.btn-groupe{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.form input [type='radio']{
+    opacity: 0;
+}
+
+.btn-groupe .label{
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    border: 2px solid;
+    border-image: linear-gradient(
+        69deg, white,#C4C4c4
+    )1;
+    -o-border-image: linear-gradient(
+        69deg, white,#C4C4c4
+    )1;
+    font-size: 20px;
+}
+input[type='submit']{
+    width: 230px;
+    margin: 25px auto;
+    display: block;
+    padding: 15px 0;
+    cursor: pointer;
+    background: linear-gradient(
+        80deg,var(--gradient-white),var(--gradient-red));
+}
+#citation{
+    margin: 90px;
+}
+#citation .citation-carte{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#citation .citation-autor{
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'rajdhani';
+}
+
+#citation .guillemet-close{
+    float: right;
+}
+
+/* Design du footer */
+footer{
+    margin-top: 162px;
+}
+footer .text-footer{
+    text-align: center;
+    font-size: 14px;
+}
+footer .social-footer{
+    text-align: center;
+    margin: 50px 0;
+}
+footer .social-item{
+    padding: 15px;
+}
+.up-bar{
+    border-top: #C4C4c4 2px solid;
+    position: relative;
+    top: 134px;
+    width: 85%;
+    left: 102px;
+}
+.right-bar{
+    border-top: #C4C4c4 2px solid;
+    position: relative;
+    top: 134px;
+    width: 85%;
+    left: 102px;
+}
+.left-bar{
+    border-top: #C4C4c4 2px solid;
+    position: relative;
+    top: 134px;
+    width: 85%;
+    left: 102px;
+}
+
+
+
+
+
+
+
+
 
 
 
